@@ -11,8 +11,8 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/cliente")
-//@CrossOrigin(origins = "http://localhost:4200/")   // Sirve para conectar o pasar datos a nuestro Front
-@CrossOrigin(origins = "*", allowedHeaders = "*", maxAge = 3600)
+@CrossOrigin(origins = "http://localhost:4200/")   // Sirve para conectar o pasar datos a nuestro Front
+//@CrossOrigin(origins = "*", allowedHeaders = "*", maxAge = 3600)
 public class clienteController {
 
 
